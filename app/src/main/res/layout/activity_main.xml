@@ -26,7 +26,7 @@
         android:layout_marginEnd="24dp"
         android:text="Clique no botão abaixo para gerar uma frase"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,10 +37,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:onClick="gerarFraseAleatoria"
-        android:text="Gerar frase"
         android:backgroundTint="#548519"
+        android:onClick="gerarFrase"
+        android:text="Gerar frase"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textFrase" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#548519"
+        android:onClick="exibirTodas"
+        android:text="Exibir todas as frases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
