@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void exibirTodas(View view) {
-
         TextView texto = findViewById(R.id.textFrase);
         String textoFrase = "";
         for (String frase : frases) {
